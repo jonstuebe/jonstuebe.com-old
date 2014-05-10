@@ -25,6 +25,6 @@ meta:
   _yoast_wpseo_google-plus-description: ''
   _wpas_done_all: '1'
 ---
-<p>Great post on media queries with tons of examples for every ios device you can think of. At some point I need to convert these to sass mixins.</p>
+Great post on media queries with tons of examples for every ios device you can think of. At some point I need to convert these to sass mixins.
 
-<p><a href="http://stephen.io/mediaqueries/" target="_blank">http://stephen.io/mediaqueries/</a></p>
+[http://stephen.io/mediaqueries/](http://stephen.io/mediaqueries/)

@@ -12,5 +12,6 @@ meta:
   tumblr_jonstuebe_id: '37645574604'
   _yoast_wpseo_linkdex: '0'
 ---
-<p><a href='http://davidwalsh.name/twitter-cards'>How to Setup Twitter Cards</a><div class="link_description"><p><a href="http://twitter.com/davidwalsh">David Walsh</a> tells how to easily and quickly create twitter cards and use them for your blog or site.</p></div>
+[How to Setup Twitter Cards](http://davidwalsh.name/twitter-cards)<div class="link_description"><p>[David Walsh](http://twitter.com/davidwalsh) tells how to easily and quickly create twitter cards and use them for your blog or site.
+</div>
 </p>

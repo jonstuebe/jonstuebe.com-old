@@ -12,4 +12,5 @@ meta:
   tumblr_jonstuebe_id: '37538610422'
   _yoast_wpseo_linkdex: '0'
 ---
-<p><a href='https://github.com/davatron5000/Foldy960'>Responsive 960 Grid</a><div class="link_description"><p>Pretty awesome responsive grid for kickstarting projects from <a href="http://twitter.com/davatron5000">Dave Rupert</a> over at <a href="http://paravelinc.com/">Paravel</a></p></div></p>
+[Responsive 960 Grid](https://github.com/davatron5000/Foldy960)<div class="link_description"><p>Pretty awesome responsive grid for kickstarting projects from [Dave Rupert](http://twitter.com/davatron5000) over at [Paravel](http://paravelinc.com/)
+</div></p>

@@ -11,7 +11,7 @@ meta:
   _wpas_done_all: '1'
   _yoast_wpseo_linkdex: '0'
 ---
-<p>Not sure how I didn't know this, but I stumbled upon the fact today that the trim function is not supported in ie8. Here's a quick fix for it:</p>
+Not sure how I didn't know this, but I stumbled upon the fact today that the trim function is not supported in ie8. Here's a quick fix for it:
 
 {% highlight js %}if(typeof String.prototype.trim !== 'function') {
    String.prototype.trim = function() {

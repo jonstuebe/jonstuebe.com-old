@@ -13,10 +13,10 @@ meta:
   _edit_last: '1'
   _yoast_wpseo_linkdex: '0'
 ---
-<p>Encountered a weird bug today. When I tried using the method visit (from capybara) I got an error telling me it did not exist. The solution was changing two lines in the spec_helper.rb. The first was requiring capybara explicitly:</p>
+Encountered a weird bug today. When I tried using the method visit (from capybara) I got an error telling me it did not exist. The solution was changing two lines in the spec_helper.rb. The first was requiring capybara explicitly:
 
 {% highlight ruby %}require 'capybara/rspec'{% endhighlight %}
 
-<p>The second change was adding this line to the config block:</p>
+The second change was adding this line to the config block:
 
 {% highlight ruby %}config.include Capybara::DSL{% endhighlight %}

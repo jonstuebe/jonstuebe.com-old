@@ -14,7 +14,7 @@ meta:
   tumblr_jonstuebe_id: '37430802287'
   _yoast_wpseo_linkdex: '0'
 ---
-<p>Recently I’ve started working with <a href="http://backbonejs.org/" target="_blank">Backbone.js</a> and started to integrate it into <a href="http://fuelphp.com/" target="_blank">FuelPHP</a>, my current framework of choice. Backbone’s sync feature uses a restful set of ajax requests to hook up the javascript mvc to the backend of your choice. In the case of FuelPHP, I had some issues since Fuel’s Validation class uses the POST variables by default, and Backbone sends over all of the variables in a JSON string.<!--more--> To combat this, I’m using the Hybrid Controller with no custom routes. Pretty awesome really. Here’s the start of the controller:</p>
+Recently I’ve started working with [Backbone.js](http://backbonejs.org/) and started to integrate it into [FuelPHP](http://fuelphp.com/), my current framework of choice. Backbone’s sync feature uses a restful set of ajax requests to hook up the javascript mvc to the backend of your choice. In the case of FuelPHP, I had some issues since Fuel’s Validation class uses the POST variables by default, and Backbone sends over all of the variables in a JSON string.<!--more--> To combat this, I’m using the Hybrid Controller with no custom routes. Pretty awesome really. Here’s the start of the controller:
 
 {% highlight php linenos %}
 class Controller_Todos extends Controller_Hybrid 

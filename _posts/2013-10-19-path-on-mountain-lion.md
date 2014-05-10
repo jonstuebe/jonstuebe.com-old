@@ -23,7 +23,6 @@ meta:
   _yoast_wpseo_opengraph-description: ''
   _yoast_wpseo_google-plus-description: ''
 ---
-<p>Nice and simple article showing an alternative way of adding directories to your path.</p>
+Nice and simple article showing an alternative way of adding directories to your path.
 
-<p><a href="http://architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/#.UmMwWpTXSlo" target="_blank">Adding To The Path on Mountain Lion</a>
-</p>
+[Adding To The Path on Mountain Lion](http://architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/#.UmMwWpTXSlo)

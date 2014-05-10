@@ -12,4 +12,4 @@ meta:
   tumblr_jonstuebe_id: '37868004086'
   _yoast_wpseo_linkdex: '0'
 ---
-<p><a href='http://davidwalsh.name/placeholder-overflow'>Placeholder Overflow</a></p>
+[Placeholder Overflow](http://davidwalsh.name/placeholder-overflow)

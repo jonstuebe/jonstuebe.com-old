@@ -27,6 +27,6 @@ meta:
   _yoast_wpseo_opengraph-description: ''
   _yoast_wpseo_google-plus-description: ''
 ---
-<p>Can't believe that I just now found this, but this extremely changes the way I will write sass from now forward.</p>
+Can't believe that I just now found this, but this extremely changes the way I will write sass from now forward.
 
-<p><a href="http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand" target="_blank">Original Article</a></p>
+[Original Article](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand)

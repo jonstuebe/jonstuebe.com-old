@@ -1,0 +1,21 @@
+---
+layout: post
+title: Alfred and Audio
+categories: []
+tags:
+- alfred
+- mac
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  tumblr_jonstuebe_permalink: http://jonstuebe.tumblr.com/post/37430867772/alfred-audio
+  tumblr_jonstuebe_id: '37430867772'
+  _yoast_wpseo_linkdex: '0'
+---
+From time to time I like to switch between my headphones and my speakers which are plugged into my iMac at all times. To do this I bought a little external usb audio interface from Griffin called iMic. Once I got this I realized all I have to do is just hold down alt and click on the audio icon in my menu bar to quickly switch between the two. To speed things up and allow me to do it with a few quick keyboard strokes I put this little combo together.<!--more-->
+
+First, download and copy [SwitchAudioSource](http://code.google.com/p/switchaudio-osx/downloads/detail?name=SwitchAudioSource-v1.0.zip&amp;can=2&amp;q=) to your ‘/usr/bin’ folder on your mac. Second download and install [this extension](http://jonstuebe.com/wp/wp-content/uploads/2012/10/audio_output_select.zip) for Alfred. Once that’s done, just open up Alfred and use the keyword “output” to switch between inputs. To modify this to fit your various needs just pop open Alfred and modify the keywords in the if statement in extension window. If you’re not sure what your outputs are being labeled as, just run ‘SwitchAudioSource -a’ in your terminal to find out.
+
+cell once a month making your experience almost identical to those in the past. All I can say is, I’m so tired of seeing people’s accounts on facebook getting hacked and it’s time for people to make the easy and secure switch to two-factor authentication. It’s there, use it.</p>

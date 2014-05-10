@@ -12,4 +12,4 @@ meta:
   tumblr_jonstuebe_id: '37862339426'
   _yoast_wpseo_linkdex: '0'
 ---
-<p><a href='http://www.chrisabernethy.com/why-wordpress-asks-connection-info/'>Fixing Wordpress Upload Permissions</a></p>
+[Fixing Wordpress Upload Permissions](http://www.chrisabernethy.com/why-wordpress-asks-connection-info/)
