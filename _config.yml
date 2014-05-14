@@ -3,6 +3,7 @@ tagline:          Web Developer
 description:      
 #Comment out url when working locally to resolve base urls correctly
 url: http://jonstuebe.com
+destination: ./html
 
 # Owner/author information
 owner:
@@ -63,4 +64,4 @@ kramdown:
 permalink:   /:year/:month/:day/:title
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp",".gitignore"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp",".gitignore","Gemfile","Gemfile.lock"]

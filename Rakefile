@@ -1,5 +1,5 @@
 def jekyll(opts="", path="")
-  sh "rm -rf _site"
+  sh "rm -rf html"
   sh path + "jekyll " + opts
 end
 
