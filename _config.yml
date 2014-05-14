@@ -3,7 +3,7 @@ tagline:          Web Developer
 description:      
 #Comment out url when working locally to resolve base urls correctly
 url: http://jonstuebe.com
-destination: ./html
+#destination: ./html
 
 # Owner/author information
 owner:
@@ -13,9 +13,10 @@ owner:
   email:          
   twitter:        jonstuebe        
   github:         jonstuebe       
-  instagram:           
-  dribbble:       jonstuebe
-  disqus:         
+  instagram:      jonstuebe     
+  codepen:        jonstuebe
+  dribbble:       
+  disqus:         jonstuebe
   # Plug in your disqus shortname!
   
 
