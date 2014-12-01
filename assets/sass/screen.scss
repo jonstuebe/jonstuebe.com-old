@@ -1,0 +1,273 @@
+@import "normalize";
+@import "bourbon";
+
+$gutter: em(10);
+$grid-columns: 12;
+$border-box-sizing: true;
+$max-width: em(1500);
+
+$media-small: 768px;
+$media-medium: 1024px;
+$media-large: 1500px;
+
+@import "neat";
+@import "mixins";
+
+%sans-serif {
+	font-family: 'Raleway', sans-serif;
+}
+
+#wrap {
+	min-width: 320px;
+	max-width: 1450px;
+	margin: $gutter auto 0;
+	padding: 0 $gutter;
+}
+
+.header-main {
+
+	#logo {
+		a {
+			float: left;
+			margin-bottom: $gutter;
+			margin-right: 20px;
+		}
+	}
+
+	.header-main-nav {
+
+		padding-top: 35px;
+
+		li {
+			display: inline;
+
+			a {
+				text-decoration: none;
+				color: #000;
+				text-transform: uppercase;
+				font-size: em(20px);
+				margin-right: 25px;
+				@extend %sans-serif;
+			}
+		}
+	}
+}
+
+#logo {
+	a {
+		text-decoration: none;
+		@extend %sans-serif;
+		font-weight: 500;
+		text-align: center;
+		width: 200px;
+		margin: 0 auto;
+		height: 90px;
+		// background-color: #ccc;
+		display: inline-block;
+		position: relative;
+		color: #000;
+
+		span {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			display: block;
+		}
+	}
+}
+
+.post-excerpt {
+	min-height: 250px;
+	background-color: lighten(#ccc, 15%);
+	padding: 20px;
+
+	&.post-large {
+		min-height: 300px;
+	}
+
+	.post-text {
+		@extend %sans-serif;
+
+		.post-category, .post-title {
+			margin: 0;
+		}
+
+		.post-category {
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+
+		.post-title {
+			text-transform: uppercase;
+		}
+
+	}
+}
+
+.module {
+	@include outer-container;
+
+	.row {
+		@include row();
+	}
+
+	.col {
+
+		margin-bottom: $gutter;
+
+		&.col-xs-1 {
+			@include span-columns(1);
+		}
+		&.col-xs-2 {
+			@include span-columns(2);
+		}
+		&.col-xs-3 {
+			@include span-columns(3);
+		}
+		&.col-xs-4 {
+			@include span-columns(4);
+		}
+		&.col-xs-5 {
+			@include span-columns(5);
+		}
+		&.col-xs-6 {
+			@include span-columns(6);
+		}
+		&.col-xs-7 {
+			@include span-columns(7);
+		}
+		&.col-xs-8 {
+			@include span-columns(8);
+		}
+		&.col-xs-9 {
+			@include span-columns(9);
+		}
+		&.col-xs-10 {
+			@include span-columns(10);
+		}
+		&.col-xs-11 {
+			@include span-columns(11);
+		}
+		&.col-xs-12 {
+			@include span-columns(12);
+		}
+
+		@include media($media-small) {
+			&.col-sm-1 {
+				@include span-columns(1);
+			}
+			&.col-sm-2 {
+				@include span-columns(2);
+			}
+			&.col-sm-3 {
+				@include span-columns(3);
+			}
+			&.col-sm-4 {
+				@include span-columns(4);
+			}
+			&.col-sm-5 {
+				@include span-columns(5);
+			}
+			&.col-sm-6 {
+				@include span-columns(6);
+			}
+			&.col-sm-7 {
+				@include span-columns(7);
+			}
+			&.col-sm-8 {
+				@include span-columns(8);
+			}
+			&.col-sm-9 {
+				@include span-columns(9);
+			}
+			&.col-sm-10 {
+				@include span-columns(10);
+			}
+			&.col-sm-11 {
+				@include span-columns(11);
+			}
+			&.col-sm-12 {
+				@include span-columns(12);
+			}
+		}
+
+		@include media($media-medium) {
+			&.col-md-1 {
+				@include span-columns(1);
+			}
+			&.col-md-2 {
+				@include span-columns(2);
+			}
+			&.col-md-3 {
+				@include span-columns(3);
+			}
+			&.col-md-4 {
+				@include span-columns(4);
+			}
+			&.col-md-5 {
+				@include span-columns(5);
+			}
+			&.col-md-6 {
+				@include span-columns(6);
+			}
+			&.col-md-7 {
+				@include span-columns(7);
+			}
+			&.col-md-8 {
+				@include span-columns(8);
+			}
+			&.col-md-9 {
+				@include span-columns(9);
+			}
+			&.col-md-10 {
+				@include span-columns(10);
+			}
+			&.col-md-11 {
+				@include span-columns(11);
+			}
+			&.col-md-12 {
+				@include span-columns(12);
+			}
+		}
+
+		@include media($media-large) {
+			&.col-lg-1 {
+				@include span-columns(1);
+			}
+			&.col-lg-2 {
+				@include span-columns(2);
+			}
+			&.col-lg-3 {
+				@include span-columns(3);
+			}
+			&.col-lg-4 {
+				@include span-columns(4);
+			}
+			&.col-lg-5 {
+				@include span-columns(5);
+			}
+			&.col-lg-6 {
+				@include span-columns(6);
+			}
+			&.col-lg-7 {
+				@include span-columns(7);
+			}
+			&.col-lg-8 {
+				@include span-columns(8);
+			}
+			&.col-lg-9 {
+				@include span-columns(9);
+			}
+			&.col-lg-10 {
+				@include span-columns(10);
+			}
+			&.col-lg-11 {
+				@include span-columns(11);
+			}
+			&.col-lg-12 {
+				@include span-columns(12);
+			}
+		}
+
+	}
+}
