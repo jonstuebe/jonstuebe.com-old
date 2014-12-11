@@ -666,11 +666,11 @@ margin on the iframe, cause it breaks stuff. */
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
-    color: #BABABA;
+    color: #6C6C6C;
 }
 
 .page-title a {
-    color: #BABABA;
+    color: #6C6C6C;
     text-decoration: none;
 }
 
