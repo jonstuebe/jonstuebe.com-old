@@ -1,0 +1,17 @@
+{
+  "name": "Exo",
+  "description": "Exo is a theme for Ghost",
+  "version": "1.0.0",
+  "homepage": "http://www.christopheryee.ca/ghost/exo",
+  "author": {
+    "name": "Christopher Yee",
+    "url": "http://www.christopheryee.ca/"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.4.0"
+  }
+}
