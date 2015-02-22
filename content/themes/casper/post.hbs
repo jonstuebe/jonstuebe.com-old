@@ -41,22 +41,24 @@
             {{/if}}
 
             <section class="author">
-                <h4><a href="{{url}}">{{name}}</a></h4>
+                {{!-- <h4><a href="{{url}}">{{name}}</a></h4> --}}
 
                 {{#if bio}}
                     <p>{{bio}}</p>
                 {{else}}
                     {{!-- <p>Read <a href="{{url}}">more posts</a> by this author.</p> --}}
                 {{/if}}
+                {{!--
                 <div class="author-meta">
                     {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
                     {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
                 </div>
+                --}}
             </section>
 
         {{/author}}
 
-            <section class="share">
+            {{!-- <section class="share">
                 <h4>Share this post</h4>
                 <a class="icon-twitter" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
@@ -71,6 +73,7 @@
                     <span class="hidden">Google+</span>
                 </a>
             </section>
+            --}}
 
         </footer>
 
