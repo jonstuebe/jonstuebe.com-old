@@ -11,7 +11,16 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://jonstuebe.com',
-        mail: {},
+        mail: {
+	    transport: 'SMTP',
+	    options: {
+		service: 'Gmail',
+		auth: {
+		    user: 'jstuebe@gmail.com',
+		    pass: 'zdvykpovnsiozmry',
+		}
+	    }
+	},
         database: {
             client: 'sqlite3',
             connection: {
