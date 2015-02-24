@@ -5,18 +5,17 @@
 
 <div class="index">
 	<div class="wrapper">
-		<h1 class="right">{{title}}</h1>
-		<h2 class="left">Introduction</h2>
+		<h1 class="left">{{title}}</h1>
 	</div>
 </div>
 
-<div class="profile {{post_class}}">
+{{!-- <div class="profile {{post_class}}">
 	<img src="{{author.image}}" class="profileimage" alt="user">
 	<h4>{{author.name}}</h4>
 	{{> social_side }}
 	<p>{{author.bio}}</p>
 	<hr>
-</div>
+</div> --}}
 
 <div id="cover" class="cover {{post_class}}">
 	<div class="background" {{#if image}} style="background-image: url({{image}})" {{/if}}></div>
@@ -70,8 +69,8 @@
 			<img src="{{author.image}}" class="author" alt="user">
 			<div class="info">
 				<h4>{{author.name}}</h4>
-				<a href="{{author.website}}">{{author.website}}</a>
-				<p>{{author.bio}}</p>
+				{{!-- <a href="{{author.website}}">{{author.website}}</a> --}}
+				{{!-- <p>{{author.bio}}</p> --}}
 				{{> social_bottom }}
 			</div>
 		</div>
