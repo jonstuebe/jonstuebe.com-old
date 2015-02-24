@@ -50,11 +50,20 @@ config = {
         // ```
 
         database: {
-            client: 'sqlite3',
+            /*client: 'sqlite3',
             connection: {
                 filename: path.join(__dirname, '/content/data/ghost-dev.db')
             },
-            debug: false
+            debug: false*/
+
+            client: 'mysql',
+            connection: {
+                host     : '127.0.0.1',
+                user     : 'root',
+                password : 'root',
+                database : 'ghost_jonstuebe',
+                charset  : 'utf8'
+            }
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
