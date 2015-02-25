@@ -387,6 +387,25 @@
 	}
 }
 
+.post-template .posts {
+	article.post {
+		@media screen and (max-width: 595px) {
+	
+			padding-top: 0;
+
+			header {
+				display: none;
+			}
+		}
+	}
+}
+
+.postindex {
+	@media screen and (max-width: 595px) {
+		padding-top: 0;
+	}
+}
+
 .postindex .post {
 	padding: 50px 0;
 

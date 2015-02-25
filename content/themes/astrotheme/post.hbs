@@ -36,6 +36,8 @@
 
 <section class="posts wrapper">
 	<article class="post {{post_class}}">
+		{{#if image}}
+		{{else}}
 		<header>
 			<div class="feature"><span>Featured</span><i class="fa fa-bookmark fa-lg"></i></div>
 			<h2>
@@ -49,6 +51,7 @@
 				on <i class="fa fa-clock-o"></i> <time datetime="{{date format="YYYY-MM-DD"}}">{{date format='MMMM Do, YYYY'}}</time>.
 			</span>
 		</header>
+		{{/if}}
 		<section class="postbody">
 			{{content}}
 		</section>
